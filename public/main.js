@@ -5,10 +5,12 @@ let mainWindow;
 
 const createWindow = () => {
   mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1200,
+    height: 1000,
+    minWidth: 1100,
+    minHeight: 900,
     // show: false,
-    transparent: true,
+    // transparent: true,
     // frame: false,
     webPreferences: {
       nodeIntegration: true,
